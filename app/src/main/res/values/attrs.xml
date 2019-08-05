@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BatteryView">
+        <!--边长-->
+        <attr name="side_length" format="dimension" />
+        <!--边宽-->
+        <attr name="side_width" format="dimension" />
+        <!--正常颜色-->
+        <attr name="normal_color" format="color" />
+        <!--预警颜色-->
+        <attr name="warning_color" format="color" />
+        <!--预警电量-->
+        <attr name="warning_percent" format="integer" />
+    </declare-styleable>
+</resources>
